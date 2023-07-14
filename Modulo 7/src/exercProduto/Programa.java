@@ -27,8 +27,6 @@ public class Programa {
 		File sourceFile = new File(sourceFileStr);
 		String sourceFolderStr = sourceFile.getParent();
 		
-		boolean success = new File(sourceFolderStr + "\\out").mkdir();
-		
 		String targetFileStr = sourceFolderStr + "\\out\\summary.csv";
 
 		try (BufferedReader br = new BufferedReader(new FileReader(sourceFileStr))) {

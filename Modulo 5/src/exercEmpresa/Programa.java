@@ -13,8 +13,8 @@ public class Programa {
 		System.out.print("Digite o numero de funcionarios: ");
 		int n = teclado.nextInt();
 
-		for (int i = 1; i <= 3; i++) {
-			System.out.println("o funcionario " + i + " é terceirizado(s/n)?");
+		for (int i = 1; i <= n; i++) {
+			System.out.println("o funcionario " + i + " ï¿½ terceirizado(s/n)?");
 			char resp = teclado.next().charAt(0);
 			System.out.println("Nome: ");
 			String nome = teclado.next();
