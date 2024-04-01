@@ -48,8 +48,6 @@ Este repositório contém arquivos de códigos em Java que foram desenvolvidos d
 - Funcoes String
 - Manipulacao de Datas
 - Numeros Aleatorios
-- Conexão a Banco de Dados com JDBC
-- Mapeamento Objeto-relacional com JPA/Hibernate
 - JavaFX
 - Swing
 
